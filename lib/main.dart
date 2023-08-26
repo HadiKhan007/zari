@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:zarafshan/newfile.dart';
 
 void main(List<String> args) {
   runApp(const MaterialApp(
@@ -16,10 +17,6 @@ class MyApp extends StatefulWidget {
 class _MyAppState extends State<MyApp> {
   @override
   Widget build(BuildContext context) {
-    return Scaffold(
-      appBar: AppBar(
-        title: const Text('New App'),
-      ),
-    );
+    return const NewFile();
   }
 }
